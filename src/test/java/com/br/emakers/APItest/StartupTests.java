@@ -1,4 +1,4 @@
-package com.br.emakers.APItest;
+package com.br.emakers.ToDoListAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
