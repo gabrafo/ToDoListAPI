@@ -1,4 +1,4 @@
-package com.br.emakers.APItest.infra.config;
+package com.br.emakers.ToDoListAPI.infra.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

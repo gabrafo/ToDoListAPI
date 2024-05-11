@@ -1,4 +1,4 @@
-package com.br.emakers.APItest.exceptions;
+package com.br.emakers.ToDoListAPI.exceptions;
 
 import org.springframework.http.HttpStatus;
 

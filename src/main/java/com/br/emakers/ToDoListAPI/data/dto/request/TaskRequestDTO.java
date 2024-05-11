@@ -1,6 +1,6 @@
-package com.br.emakers.APItest.data.dto.request;
+package com.br.emakers.ToDoListAPI.data.dto.request;
 
-import com.br.emakers.APItest.data.entity.Category;
+import com.br.emakers.ToDoListAPI.data.entity.Category;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 

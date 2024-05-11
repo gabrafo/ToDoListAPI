@@ -1,8 +1,8 @@
-package com.br.emakers.APItest.controller;
+package com.br.emakers.ToDoListAPI.controller;
 
-import com.br.emakers.APItest.data.dto.request.CategoryRequestDTO;
-import com.br.emakers.APItest.data.dto.response.CategoryResponseDTO;
-import com.br.emakers.APItest.service.CategoryService;
+import com.br.emakers.ToDoListAPI.data.dto.request.CategoryRequestDTO;
+import com.br.emakers.ToDoListAPI.data.dto.response.CategoryResponseDTO;
+import com.br.emakers.ToDoListAPI.service.CategoryService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

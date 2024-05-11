@@ -1,6 +1,6 @@
-package com.br.emakers.APItest.data.dto.response;
+package com.br.emakers.ToDoListAPI.data.dto.response;
 
-import com.br.emakers.APItest.data.entity.Task;
+import com.br.emakers.ToDoListAPI.data.entity.Task;
 
 public record TaskResponseDTO(
         Long id,

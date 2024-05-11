@@ -1,6 +1,6 @@
-package com.br.emakers.APItest.repository;
+package com.br.emakers.ToDoListAPI.repository;
 
-import com.br.emakers.APItest.data.entity.Category;
+import com.br.emakers.ToDoListAPI.data.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

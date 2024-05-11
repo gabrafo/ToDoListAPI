@@ -1,6 +1,6 @@
-package com.br.emakers.APItest.data.entity;
+package com.br.emakers.ToDoListAPI.data.entity;
 
-import com.br.emakers.APItest.data.dto.request.TaskRequestDTO;
+import com.br.emakers.ToDoListAPI.data.dto.request.TaskRequestDTO;
 import jakarta.persistence.*;
 
 import lombok.Builder;

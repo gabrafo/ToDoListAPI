@@ -1,4 +1,4 @@
-package com.br.emakers.APItest.exceptions.general;
+package com.br.emakers.ToDoListAPI.exceptions.general;
 
 public class EntityNotFoundException extends RuntimeException {
     public EntityNotFoundException(Long id) {

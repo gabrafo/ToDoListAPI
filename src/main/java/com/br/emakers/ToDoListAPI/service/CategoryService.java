@@ -1,10 +1,10 @@
-package com.br.emakers.APItest.service;
+package com.br.emakers.ToDoListAPI.service;
 
-import com.br.emakers.APItest.data.dto.request.CategoryRequestDTO;
-import com.br.emakers.APItest.data.dto.response.CategoryResponseDTO;
-import com.br.emakers.APItest.data.entity.Category;
-import com.br.emakers.APItest.exceptions.general.EntityNotFoundException;
-import com.br.emakers.APItest.repository.CategoryRepository;
+import com.br.emakers.ToDoListAPI.data.dto.request.CategoryRequestDTO;
+import com.br.emakers.ToDoListAPI.data.dto.response.CategoryResponseDTO;
+import com.br.emakers.ToDoListAPI.data.entity.Category;
+import com.br.emakers.ToDoListAPI.exceptions.general.EntityNotFoundException;
+import com.br.emakers.ToDoListAPI.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

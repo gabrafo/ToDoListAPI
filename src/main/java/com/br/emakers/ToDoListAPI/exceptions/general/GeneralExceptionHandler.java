@@ -1,6 +1,6 @@
-package com.br.emakers.APItest.exceptions.general;
+package com.br.emakers.ToDoListAPI.exceptions.general;
 
-import com.br.emakers.APItest.exceptions.RestErrorMessage;
+import com.br.emakers.ToDoListAPI.exceptions.RestErrorMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

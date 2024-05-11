@@ -1,6 +1,6 @@
-package com.br.emakers.APItest.data.dto.response;
+package com.br.emakers.ToDoListAPI.data.dto.response;
 
-import com.br.emakers.APItest.data.entity.Category;
+import com.br.emakers.ToDoListAPI.data.entity.Category;
 
 // Response: Informações devolvidas pelo servidor
 public record CategoryResponseDTO(
