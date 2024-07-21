@@ -57,6 +57,6 @@ public class CategoryService {
 
     private Category getCategoryEntityById(Long idCategory){
         // O .orElse() responde o que irá acontecer caso o item de CategoryRepository seja nulo
-        return categoryRepository.findById(idCategory).orElseThrow(()->new EntityNotFoundException(idCategory));
+        return categoryRepository.findById(idCategory).orElseThrow(() -> new EntityNotFoundException(idCategory));
     }
 }

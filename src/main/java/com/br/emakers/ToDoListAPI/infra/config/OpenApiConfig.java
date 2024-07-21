@@ -6,7 +6,7 @@ import io.swagger.v3.oas.models.servers.Server;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.Arrays;
+import java.util.Collections;
 
 @Configuration
 public class OpenApiConfig {
@@ -19,8 +19,7 @@ public class OpenApiConfig {
                         .version("V1") // Versão da documentacao
                         .description("API REST feita no minicurso de Spring Boot da Emakers Jr") // Descrição da documentação
                 )
-                .servers(Arrays.asList(
-                        new Server().url("https://apicurso.emakersjr.com.br").description("Servidor de produção"),
+                .servers(Collections.singletonList(
                         new Server().url("http://localhost:8080").description("Servidor local")
                 ));
     }
